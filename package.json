@@ -1,0 +1,21 @@
+{
+  "name": "api-pedidos",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de pedidos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.1.4"
+  }
+}
