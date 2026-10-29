@@ -56,40 +56,6 @@ Transições de status permitidas:
 
 Erros inesperados retornam 500. Todo erro retorna JSON no formato `{ "erro": "mensagem" }`.
 
-### Exemplo: criar pedido
-
-`POST /pedidos`
-
-```json
-{
-  "cliente": "Carlos Silva",
-  "tipo": "entrega",
-  "valor": 350,
-  "prioridade": "normal"
-}
-```
-
-Resposta `201`:
-
-```json
-{
-  "id": 1,
-  "cliente": "Carlos Silva",
-  "tipo": "entrega",
-  "valor": 350,
-  "prioridade": "normal",
-  "status": "recebido"
-}
-```
-
-### Exemplo: atualizar status
-
-`PATCH /pedidos/1/status`
-
-```json
-{ "status": "em_preparacao" }
-```
-
 ## Validações
 
 - `cliente`: texto não vazio (espaços nas pontas são removidos).
