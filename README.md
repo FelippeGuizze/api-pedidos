@@ -6,7 +6,7 @@ API REST em Node.js e Express para gerenciar pedidos de uma pequena loja. Armaze
 
 ```bash
 npm install
-npm start
+npm run dev
 ```
 
 O servidor sobe em `http://localhost:3000` (porta alterável pela variável `PORT`).
