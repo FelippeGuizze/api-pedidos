@@ -58,4 +58,4 @@ Erros inesperados retornam 500. Todo erro retorna JSON no formato `{ "erro": "me
 - Transição de status fora da tabela retorna 400.
 
 
-by: LeoNP and Uniedit
+By: LeoNP and Uniedit
