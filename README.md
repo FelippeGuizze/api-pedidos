@@ -11,12 +11,6 @@ npm run dev
 
 O servidor sobe em `http://localhost:3000` (porta alterável pela variável `PORT`).
 
-## Testes
-
-```bash
-npm test
-```
-
 ## Arquitetura
 
 Arquitetura em camadas:
